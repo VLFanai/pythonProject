@@ -8,6 +8,15 @@ num2 = float(num2)
 if op == '+':
     result = num1 + num2
     print(f"The sum of {num1:.0f} and {num2:.0f} is: {result}")
+elif op == '/':
+    result = num1 / num2
+    print(f"The sum of {num1:.0f} and {num2:.0f} is: {result}")
+elif op == '*':
+    result = num1 * num2
+    print(f"The sum of {num1:.0f} and {num2:.0f} is: {result}")
+elif op == '-':
+    result = num1 - num2
+    print(f"The sum of {num1:.0f} and {num2:.0f} is: {result}")
 else:
     print("Invalid Operator")
 
