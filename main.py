@@ -1,5 +1,4 @@
-name = input("Enter your name: ")
-kjdjdj
+name = input('Name: ')
 print("Hello " + name)
 
 
