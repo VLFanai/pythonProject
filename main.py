@@ -1,12 +1,5 @@
-string = input("Enter a string: ")
-count = 3
-while True :
-    if string[0] == 'a':
-        string = string[2 :]
-    elif string[-1] == 'b':
-        string = string[: 2]
-    else:
-        count += 1
-        break
-print(string)
-print(count)
+name = input("Enter a string: ")
+if name[0] == 'a' && name[0] == 'A':
+    print('I love you!')
+else:
+    print("your name")
