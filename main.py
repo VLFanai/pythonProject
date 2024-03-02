@@ -1,5 +1,6 @@
-name = input("Enter a string: ")
-if name[0] == 'a' or name[0] == 'A':
-    print('I love you!')
-else:
-    print("your name")
+import tkinter as tk
+from tkinter import ttk, messagebox
+import json
+from ttkbootstrap import Style
+
+root = tk
